@@ -7,4 +7,4 @@ Luego de bajar, instalar dependencias ("npm i")
 
 Ejecutar el presentation\index.html
 
-Presentation engine power by: Shower (https://github.com/shower/shower)[https://github.com/shower/shower]
+Presentation engine power by: Shower [https://github.com/shower/shower](https://github.com/shower/shower)
