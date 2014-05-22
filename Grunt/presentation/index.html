@@ -147,7 +147,7 @@
 	<section class="slide"><div>
 		<h2>Grunt + plugins</h2>
 		<ul>
-			<li>Grunt</li>
+			<li>Grunt (2700 registrados)</li>
 			<li>Git</li>
 			<li>Propios</li>
 		</ul>
@@ -169,19 +169,19 @@
 		</div>
 	</div></section>
 	<section class="slide" id="uglify2"><div>
-		<h2>ULGIFY</h2>
+		<h2>UGLIFY</h2>
 		<div style="text-align: center">
 			<img src="pictures/uglify2.gif" width="90%"  alt="">
 		</div>
 	</div></section>
 	<section class="slide" id="uglify3"><div>
-		<h2>ULGIFY</h2>
+		<h2>UGLIFY</h2>
 		<div style="text-align: center">
 			<img src="pictures/uglify3.gif" width="90%"  alt="">
 		</div>
 	</div></section>
 	<section class="slide" id="uglify4"><div>
-		<h2>ULGIFY</h2>
+		<h2>UGLIFY</h2>
 		<div style="text-align: center">
 			<img src="pictures/uglify4.gif" width="90%"  alt="">
 		</div>
@@ -244,7 +244,7 @@
 		<h2>Autoprefixer</h2>
 		<pre>
 			<code>.box {</code>
-			<code>	border-radius(10px);</code>
+			<code>	border-radius: 10px;</code>
 			<code>}</code>
 		</pre>
 		<p >
@@ -264,6 +264,25 @@ browsers: ['ie 10', 'android 4', 'chrome 32', 'ff 27', 'ios 7', 'opera 19', 'saf
 			}
 		</style>
 	</div></section>
+
+	<section class="slide" id="prefixer3"><div>
+		<h2>CSS by autoprefixer</h2>
+		<pre>
+			<code>.box {</code>
+			<code>	-webkit-border-radius: 10px;</code>
+			<code>	-moz-border-radius: 10px;</code>
+			<code>	-ms-border-radius: 10px;</code>
+			<code>	border-radius: 10px;</code>
+			<code>}</code>
+		</pre>
+		<style>
+			#prefixer0 code{
+				font-size: 24px;
+				line-height: 32px;
+			}
+		</style>
+	</div></section>
+
 
 	<section class="slide"><div>
 		<ul>
@@ -590,18 +609,15 @@ browsers: ['ie 10', 'android 4', 'chrome 32', 'ff 27', 'ios 7', 'opera 19', 'saf
 
 	<section class="slide"><div>
 		<h2>Grunt in action</h2>
-		<pre>
 			<p><code>grunt uglify</code></p>
 			<p class="next"><code>grunt uglify:build</code></p>
 			<p class="next"><code>grunt uglify:otroBuild</code></p>
-		</pre>
 	</div></section>
 
 	<section class="slide"><div>
 		<h2>Alias</h2>
-		<pre>
-			<p><code>grunt uglify:otroBuild</code> or <code>grunt b</code></p>
-		</pre>
+		<p><code>grunt uglify:otroBuild</code> or <code>grunt b</code></p>
+
 		<p>
 			<h2>
 				<b>Gruntfile.js</b>
@@ -612,9 +628,7 @@ browsers: ['ie 10', 'android 4', 'chrome 32', 'ff 27', 'ios 7', 'opera 19', 'saf
 
 	<section class="slide"><div>
 		<h2>Alias</h2>
-		<pre>
-			<p><code>grunt sassfixer</code></p>
-		</pre>
+		<p><code>grunt sassfixer</code></p>
 		<p>
 			<h2>
 				<b>Gruntfile.js</b>
@@ -627,9 +641,7 @@ browsers: ['ie 10', 'android 4', 'chrome 32', 'ff 27', 'ios 7', 'opera 19', 'saf
 
 	<section class="slide"><div>
 		<h2>Alias default</h2>
-		<pre>
-			<p><code>grunt</code></p>
-		</pre>
+		<p><code>grunt</code></p>
 		<p>
 			<h2>
 				<b>Gruntfile.js</b>
