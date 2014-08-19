@@ -3,7 +3,11 @@ presentationGrunt
 
 Presentacion de grunt (dada en Globant)
 
-Luego de bajar, instalar dependencias ("npm i")
+
+
+Instalar [http://nodejs.org/](nodejs)
+
+Instalar dependencias ("npm i")
 
 Ejecutar el presentation\index.html
 
